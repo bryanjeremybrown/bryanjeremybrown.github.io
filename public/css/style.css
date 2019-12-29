@@ -1,0 +1,193 @@
+/********** Reset Page **********/
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: baseline;
+	font-size: 100%;
+}
+
+/* html {
+	font-family: helvetica, arial, serif;
+} */
+
+body {
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+/********** Home page stuff **********/
+.name {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 28pt;
+	padding: 10px 10px 8px 10px;
+	text-align: center;
+	letter-spacing: 1pt;
+	color: #725050;
+}
+
+/* Top Navigation Bar*/
+.menu {
+	text-align: center;
+	display: inline;
+}
+.menu li {
+	display: inline-block;
+	padding: 20px 50px;
+	font-family: helvetica, arial, serif;
+}
+.menu li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	list-style-type: none;
+	text-decoration: none;
+	color: #f4abab;
+	transition: all 1s ease-in-out;
+}
+.menu li a:hover {
+	color: #725050;
+}
+
+/* Home Page Heading */
+.heading {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 4em;
+	color: #727272;
+	padding: 50px 0px;
+}
+
+/* Gallery Images */
+.gallery {
+	margin: 50px 50px;
+	width: 320px;
+	display: inline-block;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+	border-radius: 5%;
+	position: relative;
+	left: -14%;
+	float: left;
+	margin: 50px 50px;
+	transition: all 400ms ease-in-out;
+	filter: grayscale(100); 
+}
+.gallery img:hover {
+	cursor: pointer;
+	transform: scale(1.3);
+	transition: 1s;
+	filter: grayscale(0);
+}
+
+/* About Me Section */
+.para {
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	font-size: 2em;
+	color: #725050;
+	padding: 10px 80px 30px;
+}
+.para h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 42pt;
+	text-decoration: underline;
+}
+.para h3 {
+	display: inline;	
+}
+.block {
+	font-size: 38pt;
+	text-align: center;
+	color: #725050;
+	font-family: 'Poor Story', cursive;
+}
+.file1 img, .file2 img {
+	width: 50px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Bottom Navigation Bar with Social Icons */
+nav {
+	background-color: black;
+	text-align: center;
+}
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 30px 40px 35px 40px;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a {
+	color: #f4abab;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 25px 30px;
+	transition: all 1s ease-in-out;
+}
+#img {
+	width: 40px;
+	height: 40px; 
+	transition: 2s;
+}
+nav ul li a:hover {
+	color: #725050;
+	font-weight: bolder;	
+}
+#img:hover {
+	transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+/********** Portfolio Page Section **********/
+
+.container {
+	display: flex;
+}
+.container div { 
+	border: 10px; 
+	margin: 10px;
+	padding: 5px;
+	font-size: 18pt;
+	text-align: center;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+.container p {
+	color: #725050;
+	font-weight: bold;
+	text-align: center;
+}
+.container img {
+	height: 80%;
+	width: 100%;
+}
+.container div img:hover {
+	filter: grayscale(100);
+}
+.projects {
+	width: 320px;
+	/* height: ; */
+}
+.btn1, .btn2 {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	width: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.projects-details p {
+	text-align: center;
+	font-size: 22pt;
+}

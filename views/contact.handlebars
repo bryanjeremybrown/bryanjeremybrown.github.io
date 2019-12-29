@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>contact</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" type="text/css" href="public/css/contact.css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.8.0/js/brands.js" integrity="sha384-Gt4maPu5ZO/PkTh32sKMYmmCLGuWtMkv5YBtFZpx4Tu+Of3kFZPYBw9iD/pi4L6s" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.8.0/js/fontawesome.js" integrity="sha384-TAztyRuTlqgZ97tz982rMo44MRC58wyCC0pqKZY3cKWJNkK00qMd3DhQ7R25jpCe" crossorigin="anonymous"></script>
+	
+	
+	
+</head>
+<body>
+	<div class="name">
+		<header>B r y a n    J e r e m y    B r o w n</header>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</div>
+	<div class="photo">
+		<img src="public/img/img4.jpg" alt="img4"><br>
+		<img class="arrow" src="public/img/ezgif.com-crop.gif" alt="arrow"></a>
+	</div>
+	<br>
+	<div class="say-hello">
+		<h1>Hey there!</h1>
+		<P>Contact me if you have an opportunity available, or just wanna say hello.<br/> Would like to hear from you!</P>
+		<p><a title="Click to call me!" href="tel:+27651140866">Cell:+27651140866</a></p>
+		<p><a title="Click to send an email!" href="mailto:bbcashmoney@gmail.com">Email:bbcashmoney@gmail.com</a></p>
+		<p>Alternatively you can just fill out the contact form below.</p>
+	</div>
+	<!-- Contact Form -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-8 col-lg-6 pb-5">
+				<!--Form with header-->
+				<form action="send" method="POST">
+					<div class="card border-primary rounded-0">
+						<div class="card-header p-0">
+							<div class="bg-info text-white text-center py-2">
+								<h3><i class="fa fa-envelope"></i> Contact Form</h3>
+								{{msg}}
+								<p class="m-0">Please leave your message below. I will get back to you at the earliest!</p>
+							</div>
+						</div>
+						<div class="card-body p-3">
+							<!--Body-->
+							<div class="form-group">
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+									</div>
+									<input type="text" class="form-control" id="nombre" name="name" placeholder="Your name" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+									</div>
+									<input type="email" class="form-control" id="nombre" name="email" placeholder="example@gmail.com" required>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+									</div>
+									<textarea class="form-control"  name="message" placeholder="Leave a message" required></textarea>
+								</div>
+							</div>
+
+							<div class="text-center">
+								<input type="submit" value="Send" class="btn btn-info btn-block rounded-0 py-2">
+							</div>
+						</div>
+					</div>
+				</form>
+				<!--Form with header-->
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer Section -->
+	<nav>
+		<ul id="nav1">
+			<li><a href="/">Home</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+		<ul id="nav2">
+			
+			<li><a href="https://www.facebook.com/bbcashmoney"><span style="color: #30C162;"><i id="img" class="fab fa-hackerrank"></i></span></a></li>
+			<li><a href="https://www.github.com/vonschalk2712"><span style="color: white;"><i id="img" class="fab fa-github"></i></span></a></li>
+			<li><a href="https://www.linkedin.com/in/bryan-brown-7938ab128"><span style="color: #1778B5;"><i id="img" class="fab fa-linkedin-in"></i></span></a></li>
+		</ul>	
+	</nav>
+</body>
+</html>

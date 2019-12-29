@@ -1,0 +1,123 @@
+/********** Contact Page Section **********/
+/* Header */
+.name {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 28pt;
+	padding: 10px 10px 8px 10px;
+	text-align: center;
+	letter-spacing: 1pt;
+	color: #725050;
+}
+
+/* Top Navigation Bar*/
+.menu {
+	text-align: center;
+	display: inline;
+}
+.menu li {
+	display: inline-block;
+	padding: 20px 50px;
+	font-family: helvetica, arial, serif;
+}
+.menu li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	list-style-type: none;
+	text-decoration: none;
+	color: #f4abab;
+	transition: all 1s ease-in-out;
+}
+.menu li a:hover {
+	color: #725050;
+}
+
+/********** Main Content  **********/
+.photo img {
+	padding-top: 20px;
+	width: 500px;
+	position: relative;
+	left: 390px;
+	border-radius: 50%;
+}
+
+/* Down Arrow GIF */
+.arrow {
+	height: 140px;
+	text-align: center;
+}
+.arrow img {
+	background-color: #f2f2f2;
+}
+
+/* Message */
+.say-hello {
+	width: 80%;
+	margin: 0px 90px 20px 125px;
+	color: #725050;
+	font-size: 18pt;
+	text-align: center;
+	padding: 10px 50px 50px 50px;
+}
+.say-hello h1 {
+	font-size: 32pt;
+	padding-bottom: 20px;
+}
+.say-hello a, p {
+	color: #f4abab;
+	text-decoration: none;
+	transition: all 1s ease-in-out;
+}
+.say-hello a:hover {
+	font-size: 20pt;
+	color: #725050;
+}
+
+/* Bottom Navigation Bar with Social Icons */
+nav {
+	background-color: black;
+	text-align: center;
+}
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 30px 40px 35px 40px;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a {
+	color: #f4abab;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 25px 30px;
+	transition: all 1s ease-in-out;
+}
+#img {
+	width: 40px;
+	height: 40px; 
+	transition: 2s;
+}
+nav ul li a:hover {
+	color: #725050;
+	font-weight: bolder;	
+}
+#img:hover {
+	transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+/********* The End **********/
+
+.border-primary{
+	border-color: #725050 !important;
+	border-radius: 4px !important;
+}
+.container p{
+	color: white !important;
+}
+.btn-info{
+	border-radius: 4px !important;
+}

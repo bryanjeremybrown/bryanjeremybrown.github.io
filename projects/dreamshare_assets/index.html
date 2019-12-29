@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dreamshare Assets</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <header id="header-nav">
+        <img src="assets/headerBackground.jpg" alt="headerBackground">
+        <div id="header-content">
+        <h2 onclick="navDrop();" id="mediaQ">DREAMSHARE</h2>
+        <nav id="nav-links">
+            <ul>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div id="content-overlay">    
+        <h1>SHARE YOUR<br/> HOLIDAY DREAM</h1>
+        <P>And find the perfect partner to fulfill it</P>
+        <a href="#"><button id="btn1">Find your holiday partner</button></a>
+        </div>
+    </header>
+
+    <article id="main-content">
+        <h2>Meet a partner for your best holiday</h2>
+    <section id="meet_partners">
+        <div class="partners">
+        <img src="assets/partner1.jpg" alt="Bradley Hunter">
+        <img class="icon" src="assets/music.svg" alt="music-icon" style="background-color: #ff4e50;">
+        <h3>Bradley Hunter</h3>
+        <p>Based in Chicago. I love playing tennis and loud music.</p>
+        </div>
+
+        <div class="partners">
+        <img src="assets/partner2.jpg" alt="Marie Bennet">
+        <img class="icon" src="assets/brush.svg" alt="brush-icon" style="background-color: #18d4ca;">
+        <h3>Marie Bennet</h3>
+        <p>Currently living in Colorado. Lover of art, languages and travelling.</p>
+        </div>
+
+        <div class="partners">
+        <img src="assets/partner3.jpg" alt="Diana Wells">
+        <img class="icon" src="assets/camera.svg" alt="camera-icon" style="background-color: #ffa710;">
+        <h3>Diana Wells</h3>
+        <p>Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
+        </div>
+
+        <div class="partners">
+        <img src="assets/partner4.jpg" alt="Christopher Pierce">
+        <img class="icon" src="assets/airplane.svg" alt="airplane-icon" style="background-color: #667df3;">
+        <h3>Christopher Pierce</h3>
+        <p>Star Wars fanatic. I have a persistent enthuasiasm to create new things.</p>
+        </div>
+    </section>
+    
+    <div style="clear:both;"></div><br/>
+    <div id="content-divide">
+    <a href="#"><button id="btn2">See other partners</button></a>
+    <h2>Discover holiday activity ideas</h2>
+    </div>
+    </article>
+
+    <section>
+        <div id="secondary-content">
+            <div class="centered">
+                <img src="assets/block1Sports.jpg" alt="block1Sports">
+                <h1>Sports</h1>
+            </div>
+            <div class="centered">
+                <img src="assets/block2Wellness.jpg" alt="block2Wellnes">
+                <h1>Wellness and Health</h1>
+            </div>
+            <div class="centered">
+                <img src="assets/block3Expeditions.jpg" alt="block3Expeditions">
+                <h1>Expeditions</h1>
+            </div>
+            <div class="centered">
+                <img src="assets/block4Games.jpg" alt="block4Games">
+                <h1>Games</h1>
+            </div>
+            <div class="centered">
+                <img src="assets/block5Culture.jpg" alt="block5Culture">
+                <h1>Culture and Education</h1>
+            </div>
+            <div class="centered">
+                <img src="assets/block6Beauty.jpg" alt="block6Beauty">
+                <h1>Beauty and Relaxation</h1>
+            </div>
+            <div class="centered">
+                <img src="assets/block7Travelling.jpg" alt="block7Traveling">
+                <h1>Travelling</h1>
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <div class="end-line"></div>
+    
+    <footer id="footer-nav">
+            <a href="index.html"><h1>DREAMSHARE</h1></a>
+            <div class="dropdown">
+                <a><button id="dropbtnA" onclick="revealDrop()">Company</button></a>
+                <div id="dropdown-contentA">
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Press</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Terms and Privacy</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a><button id="dropbtnB" onclick="revealDropB()">Activities</button></a>
+                <div id="dropdown-contentB">
+                    <a href="#">Sports</a>
+                    <a href="#">Wellness and Health</a>
+                    <a href="#">Expeditions</a>
+                    <a href="#">Games</a>
+                    <a href="#">Culture and Education</a>
+                    <a href="#">View all</a>   
+                </div>
+                </div>
+                <div class="dropdown">
+                <a><button id="dropbtnC" onclick="revealDropC()">Contact us</button></a>
+                <div id="dropdown-contentC">
+                    <a href="#">Tel:(000) 000-0000</a>
+                    <a href="#">Email: dreamshare@email.com</a>   
+                </div>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="navBar.js"></script>
+</body>
+</html>
