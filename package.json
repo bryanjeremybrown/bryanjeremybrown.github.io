@@ -4,6 +4,7 @@
   "description": "contact form using nodemailer",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bryan brown",
